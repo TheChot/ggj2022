@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9bd803089ba9954489cb04ae2b2e347b
+guid: 4edbadf5843ca5a4aae124f84d6f924c
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -86,7 +86,29 @@ ScriptedImporter:
     parentGroupIndex: -1
     uvTransform: {x: 0, y: 0}
   mosaicSpriteImportData:
-  - name: ground
+  - name: blocker
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 946
+      width: 457
+      height: 765
+    spriteID: cb50d5fa3e6fd7e469f2bf62b6007243
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -214, y: 791}
+  - name: box
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -95,9 +117,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 1920
-      height: 289
-    spriteID: 7079f563952d00c46b3d3fba9b3ec006
+      width: 934
+      height: 934
+    spriteID: 106d829c06ac6d444860b5807e7ff697
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -107,19 +129,19 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 4, y: 4}
-  - name: trees copy 3
+    uvTransform: {x: -55, y: -48}
+  - name: fireball
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 466
-      y: 301
-      width: 454
-      height: 1067
-    spriteID: 425356ab8df0eca489bfe28592e2af43
+      x: 946
+      y: 4
+      width: 1006
+      height: 671
+    spriteID: cfd995957d76f2a4fb185b42ae8b89d1
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -129,97 +151,9 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -978, y: 301}
-  - name: trees copy 2
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 928
-      y: 301
-      width: 454
-      height: 1067
-    spriteID: 3ef4d4576bdcf39428aff6afeb9ef805
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: -38, y: 301}
-  - name: trees copy
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 301
-      width: 454
-      height: 1068
-    spriteID: aaadcd691585da2438b05c6e1d66a5dc
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: -445, y: 301}
-  - name: trees
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 1390
-      y: 301
-      width: 320
-      height: 824
-    spriteID: 2224ac0e02a6f534a92c9700bfb14678
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 1375, y: 230}
+    uvTransform: {x: 941, y: -172}
   rigSpriteImportData:
-  - name: ground
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 1080
-      width: 10976
-      height: 251
-    spriteID: 9adb0c715e32ce64ca9b3af4d53a0576
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 4, y: 1080}
-  - name: trees copy 7
+  - name: box
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -228,9 +162,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 10387
-      height: 1068
-    spriteID: 32289c7c594855b4b88d90c56e2976bc
+      width: 683
+      height: 683
+    spriteID: 2748d30b7ef796c4c893e18d8c591eea
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -240,82 +174,119 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -316, y: 4}
+    uvTransform: {x: -55, y: -48}
+  - name: fireball
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 946
+      y: 4
+      width: 1006
+      height: 671
+    spriteID: decb9d90982ddb44790bdf80811828c9
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 941, y: -172}
+  - name: blocker
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 946
+      width: 457
+      height: 765
+    spriteID: b2732979e4ee2d74bb090659b47c753d
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -214, y: 791}
   platformSettings: []
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
   documentAlignment: 7
   importHiddenLayers: 0
   importedTextureWidth: 2048
-  importedTextureHeight: 256
-  documentSize: {x: 10976, y: 1080}
+  importedTextureHeight: 2048
+  documentSize: {x: 1024, y: 1024}
   paperDollMode: 0
   keepDupilcateSpriteName: 0
   spriteCategoryList:
     categories: []
-  textureActualWidth: 16384
+  textureActualWidth: 2048
   textureActualHeight: 2048
   spritePackingTag: 
   resliceFromLayer: 0
-  characterMode: 1
+  characterMode: 0
   mosaicPSDLayers:
-  - name: ground
-    spriteName: ground
+  - name: blocker
+    spriteName: blocker
     isGroup: 0
     parentIndex: -1
-    spriteID: 7079f563952d00c46b3d3fba9b3ec006
-    layerID: 6
-    mosaicPosition: {x: 4, y: 4}
-  - name: trees copy 3
-    spriteName: trees copy 3
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 425356ab8df0eca489bfe28592e2af43
-    layerID: 12
-    mosaicPosition: {x: 466, y: 301}
-  - name: trees copy 2
-    spriteName: trees copy 2
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 3ef4d4576bdcf39428aff6afeb9ef805
-    layerID: 11
-    mosaicPosition: {x: 928, y: 301}
-  - name: trees copy
-    spriteName: trees copy
-    isGroup: 0
-    parentIndex: -1
-    spriteID: aaadcd691585da2438b05c6e1d66a5dc
-    layerID: 10
-    mosaicPosition: {x: 4, y: 301}
-  - name: trees
-    spriteName: trees
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 2224ac0e02a6f534a92c9700bfb14678
+    spriteID: cb50d5fa3e6fd7e469f2bf62b6007243
     layerID: 9
-    mosaicPosition: {x: 1390, y: 301}
-  rigPSDLayers:
-  - name: ground
-    spriteName: ground
+    mosaicPosition: {x: 4, y: 946}
+  - name: box
+    spriteName: box
     isGroup: 0
     parentIndex: -1
-    spriteID: 9adb0c715e32ce64ca9b3af4d53a0576
-    layerID: 20
-    mosaicPosition: {x: 4, y: 1080}
-  - name: trees copy 7
-    spriteName: trees copy 7
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 32289c7c594855b4b88d90c56e2976bc
-    layerID: 25
+    spriteID: 106d829c06ac6d444860b5807e7ff697
+    layerID: 7
     mosaicPosition: {x: 4, y: 4}
+  - name: fireball
+    spriteName: fireball
+    isGroup: 0
+    parentIndex: -1
+    spriteID: cfd995957d76f2a4fb185b42ae8b89d1
+    layerID: 4
+    mosaicPosition: {x: 946, y: 4}
+  rigPSDLayers:
+  - name: blocker
+    spriteName: blocker
+    isGroup: 0
+    parentIndex: -1
+    spriteID: b2732979e4ee2d74bb090659b47c753d
+    layerID: 9
+    mosaicPosition: {x: 4, y: 946}
+  - name: box
+    spriteName: box
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 2748d30b7ef796c4c893e18d8c591eea
+    layerID: 7
+    mosaicPosition: {x: 4, y: 4}
+  - name: fireball
+    spriteName: fireball
+    isGroup: 0
+    parentIndex: -1
+    spriteID: decb9d90982ddb44790bdf80811828c9
+    layerID: 4
+    mosaicPosition: {x: 946, y: 4}
   characterData:
     bones: []
     parts: []
     dimension: {x: 0, y: 0}
     characterGroups: []
-  generateGOHierarchy: 0
-  textureAssetName: environment Texture
-  prefabAssetName: environment Prefab
-  spriteLibAssetName: environment Sprite Lib
+  generateGOHierarchy: 1
+  textureAssetName: fireball Texture
+  prefabAssetName: fireball Prefab
+  spriteLibAssetName: fireball Sprite Lib
   secondarySpriteTextures: []

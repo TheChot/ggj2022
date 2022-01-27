@@ -6,10 +6,12 @@ public class playerSwitch : MonoBehaviour
 {
     public playerMovement[] pM;
     public KeyCode switchChar;
+    public camController camCon;
     // Start is called before the first frame update
     void Start()
     {
         pM[0].canMove = true;
+        camCon.player = pM[0].transform;
         
     }
 
@@ -20,6 +22,10 @@ public class playerSwitch : MonoBehaviour
             for (int i = 0; i < pM.Length; i++)
             {
                 pM[i].canMove = !pM[i].canMove;
+                if(pM[i].canMove)
+                {
+                    camCon.player = pM[i].transform;
+                }
             }
         }
     }
